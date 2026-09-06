@@ -1,0 +1,21 @@
+SPDX-License-Identifier: CC-BY-NC-SA-4.0
+
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+(CC BY-NC-SA 4.0)
+
+Copyright (c) 2026 Žan Petkovšek
+
+Ta licenca velja za AVTORJEVO lastno kodo v tem repozitoriju (mape capture/,
+runtime/, setup/ ter datoteki v vhap_modified/, ki sta predelava projekta VHAP).
+Tuje komponente (GaussianAvatars, VHAP, 3D Gaussian Splatting, SMIRK, MP_2_FLAME,
+FLAME, MediaPipe) niso vključene in imajo vsaka svojo licenco — glej THIRD_PARTY.md.
+
+Na kratko (povzetek, ne nadomešča pravnega besedila):
+  - Priznanje avtorstva (BY): navedi avtorja in vir.
+  - Nekomercialno (NC): brez komercialne uporabe.
+  - Deljenje pod enakimi pogoji (SA): izpeljanke deli pod isto licenco.
+
+Povzetek: https://creativecommons.org/licenses/by-nc-sa/4.0/
+Celotno pravno besedilo: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+Delo je ponujeno "TAKO, KOT JE", brez jamstev.

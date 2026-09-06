@@ -1,0 +1,38 @@
+# --- modeli in uteži  ---
+*.pkl
+*.pt
+*.pth
+*.ckpt
+*.task
+*.npz          # vkljucno s smirk_to_flame2023.npz -> regeneriraj s smirk_precompute.py
+
+# --- naučeni avatarji in rezultati ---
+output/
+**/output/
+viewer_output/
+primerjava_slike/
+domena_shots/
+
+# --- osebni podatki ---
+videos/
+*.mp4
+*.mov
+*.png
+*.jpg
+*.jpeg
+
+# --- tuji repozitoriji (kloniraj posebej, glej README) ---
+GaussianAvatars/
+VHAP/
+gaussian-splatting/
+smirk/
+FLAME_PyTorch/
+mediapipe-blendshapes-to-flame/
+3DDFA-V3/
+colmap/
+
+# --- Python / okolja ---
+__pycache__/
+*.pyc
+.venv/
+.env
