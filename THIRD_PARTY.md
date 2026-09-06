@@ -8,7 +8,7 @@ jih sam, vsako pod njeno licenco. Modelov in uteži ne redistribuiram.
 | **GaussianAvatars** | CC BY-NC-SA 4.0 | https://github.com/ShenhanQian/GaussianAvatars | nekomercialno; moje `runtime/` skripte se vstavijo vanj |
 | **VHAP** | CC BY-NC-SA 4.0 | https://github.com/ShenhanQian/VHAP | datoteki iz `vhap_modified/` sta predelava VHAP (ista licenca) |
 | **3D Gaussian Splatting** | licenca Inria (nekomercialna, raziskovalna) | podmodul GaussianAvatars (`--recursive`) | rasterizator |
-| **SMIRK** | MIT (koda) | https://github.com/georgeretsinas/SMIRK | uteži `SMIRK_em1.pt` pridobi sam |
+| **SMIRK** | MIT (koda) | https://github.com/georgeretsi/smirk | uteži `SMIRK_em1.pt` pridobi sam |
 | **MP\_2\_FLAME** | za raziskave/izobraževanje (»as-is«) | https://github.com/PeizhiYan/mediapipe-blendshapes-to-flame | uteži učene na javnih zbirkah; ne za komercialno rabo |
 | **FLAME** (model) | MPI, **nekomercialno, brez redistribucije**, registracija | https://flame.is.tue.mpg.de | FLAME 2020 + 2023 + maske |
 | **MediaPipe** (Face Landmarker) | Apache-2.0 | https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/1/face_landmarker.task | model prenese uporabnik |

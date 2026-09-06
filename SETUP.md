@@ -26,7 +26,7 @@ V koren projekta (npr. `C:\projekt\avatar`) kloniraj:
 ```powershell
 git clone https://github.com/ShenhanQian/GaussianAvatars.git --recursive
 git clone https://github.com/ShenhanQian/VHAP.git
-git clone https://github.com/georgeretsinas/SMIRK.git smirk
+git clone https://github.com/georgeretsi/smirk.git
 git clone https://github.com/PeizhiYan/mediapipe-blendshapes-to-flame.git
 ```
 
@@ -112,16 +112,3 @@ python compare_drivers.py ^
     --point_path "output\<avatar>\point_cloud\iteration_30000\point_cloud.ply" ^
     --smirk_root "..\smirk" --checkpoint "..\smirk\pretrained_models\SMIRK_em1.pt" --half
 ```
-
----
-
-## 8. Odpravljanje težav
-
-- **Napaka pri prevajanju (CUDA/STL/nvcc):** manjka MSVC 14.38 ali je aktiven napačen
-  toolset. Poženi iz `setup/enter_build_env.ps1` (vstopi v VS2022 x64 z 14.38).
-- **nvdiffrast se ne prevede:** uporabljaj okolje `VHAP` (ima ustrezen nvdiffrast) in razvojno
-  okolje VS2022; local viewer prav tako prevaja ob prvem zagonu.
-- **Kamera se ne odpre:** podaj `--cam_id 1` (ali drugo številko).
-- **Manjka `face_landmarker.task` / modeli FLAME / SMIRK uteži:** preveri korak 4 in poti
-  (`--task_path`, `--smirk_root`, `--flame2020/--flame2023`).
-- **Pogled/mežik kažeta narobe:** pri krmilnikih uporabi `--gaze_signs`, `--flip_yaw` ipd.

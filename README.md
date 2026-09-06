@@ -54,7 +54,7 @@ setup/           00..07 *.ps1                 # namestitev okolij in zagon (Wind
    ```
    ter **SMIRK** in **MP\_2\_FLAME**:
    ```powershell
-   git clone https://github.com/georgeretsinas/SMIRK.git smirk
+   git clone https://github.com/georgeretsi/smirk.git
    git clone https://github.com/PeizhiYan/mediapipe-blendshapes-to-flame.git
    ```
 
