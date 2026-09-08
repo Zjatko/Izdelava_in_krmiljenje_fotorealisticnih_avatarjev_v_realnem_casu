@@ -1,4 +1,5 @@
 # 
+# Predelava izvorne datoteke iz projekta VHAP
 # Toyota Motor Europe NV/SA and its affiliated companies retain all intellectual 
 # property and proprietary rights in and to this software and related documentation. 
 # Any commercial use, reproduction, disclosure or distribution of this software and 
